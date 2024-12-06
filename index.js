@@ -55,6 +55,9 @@ res.send("<h1>My name is Suraj Kumar...</h1>");
 app.get('/github',(req,res)=>{
     res.json(data);
 })
+app.get('/login',(req,res)=>{
+    res.send("login successful");
+})
 app.listen(process.env.PORT,()=>{
     console.log(`app is listening on ${port}`);
 })
