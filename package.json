@@ -1,0 +1,19 @@
+{
+  "name": "backendapp",
+  "version": "1.0.0",
+  "description": "check deploy on the production level.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "test"
+  ],
+  "author": "Suraj Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
